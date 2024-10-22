@@ -1,0 +1,484 @@
+ /* google font */
+ @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+Rounded+1c&family=Miltonian+Tattoo&display=swap');
+
+ .miltonion {
+     font-family: "Miltonian Tattoo", serif;
+ }
+
+ .font-inter {
+     font-family: "M PLUS Rounded 1c", sans-serif;
+ }
+
+ body {
+     background-color: #1f1919;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem;
+     color: white;
+     width: 90%;
+     margin: auto;
+ }
+
+ .logo {
+     font-size: 1.5rem;
+     font-weight: 900;
+     color: #E6533C;
+ }
+
+ .home {
+     background-color: #E6533C;
+     border-radius: 10px;
+ }
+
+ .nav-links {
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, auto);
+     gap: 1rem;
+ }
+
+ .nav-links li a {
+     color: white;
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+ }
+
+ .icon {
+     display: none;
+ }
+
+ /* banner */
+ .banner {
+     width: 90%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: auto;
+     background-color: #b9b9b909;
+     border-radius: 10px;
+ }
+
+ .left-part {
+     width: 50%;
+     margin: auto;
+ }
+
+ .banner-heading {
+     width: 100%;
+     font-size: 72px;
+     font-weight: 800;
+     color: white;
+     margin-bottom: 20px;
+ }
+
+ .banner-description {
+     color: white;
+     margin-bottom: 20px;
+ }
+
+ .banner-btn {
+     display: flex;
+     gap: 10px;
+ }
+
+ .btn-primary {
+     color: white;
+     font-size: 15px;
+     width: 30%;
+     padding: 16px;
+     border-radius: 15px;
+     background-color: #E6533C;
+ }
+
+ .btn-primary2 {
+     font-size: 15px;
+     width: 30%;
+     padding: 16px;
+     border-radius: 15px;
+     background-color: black;
+     color: white;
+ }
+
+
+ .right-part {
+     width: 50%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     position: relative;
+ }
+
+ .img-card {
+     background-color: rgba(62, 64, 65, 0.738);
+     width: 190px;
+     height: 110px;
+     border-radius: 13px;
+     text-align: center;
+     padding: 15px;
+     position: absolute;
+     bottom: 80px;
+     left: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     color: white;
+ }
+
+ .div-color {
+     width: 30px;
+     height: 30px;
+     background: #E6533C;
+     border-radius: 100%;
+ }
+
+ .card-description {
+     opacity: 30%;
+ }
+
+ .img-card-top {
+     background-color: rgba(62, 64, 65, 0.738);
+     width: 170px;
+     height: 90px;
+     border-radius: 13px;
+     text-align: center;
+     padding: 15px;
+     position: absolute;
+     right: 50px;
+     bottom: 60%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     color: white;
+ }
+
+ /* change your habits */
+ .section-part {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 60px;
+ }
+
+ .section-part .section-heading {
+     color: white;
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .section-part p {
+     opacity: 60%;
+     color: white;
+     text-align: center;
+ }
+
+ .img-container {
+     display: flex;
+     justify-content: space-around;
+     width: 90%;
+     margin: auto;
+     margin-bottom: 30px;
+ }
+
+ .img-card-1 img {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .img-card-1 p {
+     opacity: 60%;
+ }
+
+ .card-img-1 {
+     width: 50%;
+     margin: auto;
+     border-radius: 100%;
+ }
+
+ .img-card-1 {
+     text-align: center;
+     color: white;
+ }
+
+ /* walk section */
+ .walk-section {
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     background-color: #373636;
+     padding: 20px;
+     border-radius: 15px;
+ }
+
+ .walk-section h1 {
+     margin-bottom: 10px;
+     font-size: 40px;
+     color: white;
+ }
+
+ .walk-section p {
+     margin-bottom: 10px;
+ }
+
+ .walk-img img {
+     width: 50%;
+     border-radius: 20px;
+ }
+
+ .walk-img {
+     display: flex;
+     justify-content: end;
+ }
+
+ /* exersise */
+ .exercise-part {
+     width: 90%;
+     margin: auto;
+     margin-top: 30px;
+ }
+
+ .exercise-part p {
+     opacity: 60%;
+     color: white;
+ }
+
+ .exercise-heading {
+     font-size: 30px;
+     color: white;
+ }
+
+ /* BMI SECTION */
+ .bmi-section{
+    display: flex;
+    gap: 30px;
+    background: #222222;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 12px;
+ }
+ .bmi-section-leftPart{
+    width: 50%;
+    color: white;
+ }
+ .bmi-section-rightPart{
+    width: 50%;
+ }
+ .bmi-section-rightPart h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+ }
+ .bmi-section-rightPart p{
+    color: white;
+     opacity: 60%;
+      margin-bottom: 10px;
+ }
+ .btn-calculte{
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font: 10px;
+    background: #E6533C;
+ }
+ .bmi-section-rightPart input{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #4a46466c;
+    margin-bottom: 10px;
+ }
+ .age-sex{
+    display: flex;
+    gap: 10px; 
+    position: relative;
+}
+.gender-icon i{
+    top: 8px;
+    left: 340px;
+    position: absolute;
+}
+.last-input input{
+    width: 72%;
+    padding: 10px;
+    position: relative;
+}
+
+ .bmi-heading {
+     margin-top: 30px;
+     margin-bottom: 30px;
+  
+ }
+
+ .bmi-heading h1 {
+     font-size: 40px;
+     font-weight: 800;
+     opacity: 60%;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 290px;
+   
+ }
+.bmi-chart-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+ table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td{
+    opacity: 60%;
+  }
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+ .bmi-heading p {
+     opacity: 60%;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* our team image */
+ .team-container {
+     width: 90%;
+     margin: auto;
+     background-color: rgb(36, 35, 33);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 20px;
+ }
+
+ .image-top1 {
+     width: 30%;
+     height: 270px;
+     border-radius: 10px;
+ }
+
+ .image-top2 {
+     width: 30%;
+     height: 9%;
+     border-radius: 10px;
+ }
+
+ .image-top3 {
+     width: 30%;
+     height: 270px;
+     border-radius: 10px;
+ }
+
+ .team-image-top {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin-bottom: 10px;
+ }
+
+ .image-top4 {
+     width: 30%;
+     height: 270px;
+     border-radius: 10px;
+ }
+ /* footer */
+.footer{
+    background: #373636;
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.fitness-1 {
+    width: 30%;
+}
+.fitness-1 h1{
+    color: #E6533C;
+    margin-bottom: 10px;
+}
+.fitness-1 p{
+    color: white;
+    opacity: 60%;
+}
+.get-started{
+width: 30%;
+justify-content: end;
+line-height: 25px;
+margin-left: 70px;
+}
+.get-started h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.get-started p{
+    color: white;
+    opacity: 60%;
+}
+.get-started-2 {
+width: 30%;
+line-height: 25px;
+}
+
+.get-started-2 h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.get-started-2 p{
+    color: white;
+    opacity: 60%;
+}
+.hr-line{
+    width: 90%;
+    margin: auto;
+    opacity: 60%;
+}
+.copy-right{
+    text-align: center;
+    opacity: 60%;
+    color: white;
+    margin-top: 10px;
+}
+
+
+ /* Responsive Styles */
+ @media (max-width: 768px) {
+     .nav-links {
+         display: none;
+         text-align: center;
+         width: 100%;
+         background-color: #333;
+         top: 70px;
+         left: 0;
+     }
+
+     .icon {
+         display: flex;
+     }
+ }
