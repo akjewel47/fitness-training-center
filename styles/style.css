@@ -634,6 +634,16 @@
          width: 100%;
      }
 
+     .bmi-heading h1 {
+         font-size: 20px;
+         padding-left: 30px;
+         text-align: center;
+         width: 100%;
+     }
+     .bmi-heading p{
+        padding: 10px;
+     }
+
      .bmi-section {
          flex-direction: column;
          gap: 30px;
@@ -643,11 +653,12 @@
          padding: 10px;
          border-radius: 12px;
      }
+
      .age-sex {
-        display: flex;
-        gap: 10px;
-        position: relative;
-    }
+         display: flex;
+         gap: 10px;
+         position: relative;
+     }
 
      .bmi-chart-heading {
          color: white;
@@ -668,21 +679,86 @@
          font-size: 15px;
          margin-bottom: 10px;
      }
-     .Height-weight{
-        display: flex;
-     }
-     .bmi-section-rightPart input {
-        padding: 3px;
-        width: 50%;
-        border-radius: 10px;
-        background-color: #4a46466c;
-        margin-bottom: 10px;
-    }
-    .last-input input {
-        width: 100%;
-    }
-    .btn-calculte {
-        width: 100%;
-    }
 
+     .Height-weight {
+         display: flex;
+     }
+
+     .bmi-section-rightPart input {
+         padding: 3px;
+         width: 50%;
+         border-radius: 10px;
+         background-color: #4a46466c;
+         margin-bottom: 10px;
+     }
+
+     .last-input input {
+         width: 100%;
+     }
+
+     .btn-calculte {
+         width: 100%;
+     }
+
+     .section-heading {
+         font-size: 15px;
+     }
+
+     .team-image-top {
+         flex-direction: column;
+     }
+
+
+
+     .image-top1 {
+         width: 100%;
+         height: 270px;
+         border-radius: 10px;
+     }
+
+     .image-top2 {
+         width: 100%;
+         height: 9%;
+         border-radius: 10px;
+     }
+
+     .image-top3 {
+         width: 100%;
+         height: 270px;
+         border-radius: 10px;
+     }
+
+     .team-image-top {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 10px;
+         margin-bottom: 10px;
+     }
+
+     .image-top4 {
+         width: 100%;
+         height: 270px;
+         border-radius: 10px;
+     }
+
+     .footer-section {
+         flex-direction: column;
+         padding: 10px;
+     }
+
+     .fitness-1 {
+         width: 100%;
+     }
+
+     .get-started {
+         width: 100%;
+         margin-top: 10px;
+     }
+
+     .get-started-2 {
+         width: 100%;
+         line-height: 25px;
+         margin-top: 10px;
+     }
  }
